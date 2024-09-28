@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* Inicio de clases fuente Ubuntu*/
+.ubuntu-light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ubuntu-medium {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ubuntu-bold {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ubuntu-light-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.ubuntu-regular-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.ubuntu-medium-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.ubuntu-bold-italic {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/*Fin de clases fuente ubuntu*/
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Inicio Definiendo fuentes*/
+p {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+}
+
+h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 50px;
+}
+
+/*Fin definicion de fuentes*/
+
+
+body {
+    background-color: #FB9801;
+    color: #ededed;
+    
+
+}
+
+/*Inicio navbar*/
+.navbar {
+    background-color: transparent;
+    height: 60px;
+}
+
+.navbar-nav {
+
+    display: flex;
+    margin-left: 40%;
+    top: 0;
+    left: 0;
+    width: 0%;
+    padding: 20px 10%;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.navbar-toggle navbarNav {
+    float: right;
+    margin-left: 15px;
+}
+
+.nav-item a {
+    font-size: 20px;
+    color: #ededed;
+    font-weight: 500;
+    margin-left: 50px;
+    text-decoration: none;
+    transition: .3s;
+    width: 100%;
+    left: 10px;
+    right: 30px;
+    object-position: center;
+    background-color: #0b1717;
+    text-align: center;
+    margin-top: 15px;
+    max-width: 100px;
+}
+
+.nav-item a:hover {
+    color: rgb(240, 209, 5);
+
+    padding-left: 30px;
+}
+
+#todoNav {
+    background-color: #0b1717;
+}
+
+#contenidoNav {
+    background-color: #0b1717;
+
+}
+
+#contenidoNav img {
+    margin-top: 3vw;
+}
+
+#navBoton {
+    background-color: #ededed;
+}
+#navBoton:hover{
+    background-color: #f9e339;
+    transition: .5s;
+}
+
+/*Fin navBar*/
+/*Inicio de me pantalla inicio*/
+.Inicio {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+    width: 75vw;
+
+}
+
+#contenidoInicio {
+
+    max-width: 600px;
+    min-width: 300px;
+    margin-top: 38px;
+}
+
+#imgInicio {
+    max-width: 400px;
+    max-height: 400px;
+    margin-top: 15%;
+    margin-left: 50%;
+    margin-right: 5%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+
+
+}
+
+#contenidoInicio h1 {
+
+    font-size: 90px;
+    font-weight: 600;
+}
+
+#contenidoInicio h2 {
+    font-size: 48px;
+    font-weight: 500;
+    justify-content: center
+}
+
+#contenidoInicio p {
+    font-size: 20px;
+}
+
+/*Fin seccion Inicio*/
+
+/*Inicio seccion Personajes */
+.titulos {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+/* Inicio Cartas personajes */
+.card {
+
+    max-width: 370px;
+    border-radius: 20px;
+    background-color: #f9e339;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.card img {
+
+    max-height: 370px;
+    max-width: 370px;
+    min-height: 370px;
+    border-color: #000000;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+.card p {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+
+.card h5 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Fin Cartas personajes*/
+
+/*Inicio cartas actores hover*/
+#barry {
+    position: relative;
+}
+
+#jerry {
+    position: absolute;
+    max-width: 370px;
+    max-height: 370px;
+    width: 100%;
+}
+
+#barry:hover {
+    opacity: 0;
+    transition: .5s;
+}
+
+#adam {
+    position: relative;
+}
+
+#matthew {
+    position: absolute;
+    max-width: 370px;
+    max-height: 370px;
+    width: 100%;
+}
+
+#adam:hover {
+    opacity: 0;
+    transition: .5s;
+}
+
+#vanessa {
+    position: relative;
+}
+
+#rene {
+    position: absolute;
+    max-width: 370px;
+    max-height: 370px;
+    width: 100%;
+}
+
+#vanessa:hover {
+    opacity: 0;
+    transition: .5s;
+}
+
+#layton {
+    position: relative;
+}
+
+#john {
+    position: absolute;
+    max-width: 370px;
+    max-height: 370px;
+    width: 100%;
+}
+
+#layton:hover {
+    opacity: 0;
+    transition: .5s;
+}
+
+
+#picacuernos {
+    position: relative;
+}
+
+#chris {
+    position: absolute;
+    max-width: 370px;
+    max-height: 370px;
+    width: 100%;
+}
+
+#picacuernos:hover {
+    opacity: 0;
+    transition: .5s;
+}
+
+#ken {
+    position: relative;
+}
+
+#pat {
+    position: absolute;
+    max-width: 370px;
+    max-height: 370px;
+    width: 100%;
+}
+
+#ken:hover {
+    opacity: 0;
+    transition: .5s;
+}
+
+/*Fin cartas actores hover*/
+/*Inicio "contenidoHistoria"*/
+.contenidoHistoria {
+    text-align: center;
+    color: #000000;
+    background-color: #f9e339;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+/*Fin "contenidoHistoria*/
+/*Inicio "contenidoCinematografia"*/
+.contenidoCinematografia {
+    text-align: center;
+    background-color: #f9e339;
+    color: #000000;
+    margin-top: 15px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.cinematografia {
+
+    justify-content: space-between;
+}
+
+#flecha {
+    position: fixed;
+    
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    border-color: #000000;
+    border-style: solid;
+    right: 20px;
+    bottom: 120px ;
+    
+}
+#flecha:hover{
+    background-color: #0b1717;
+    transition: .4s;
+}
+/*Fin "contenidoCinematografia" */
+
+/*Inicio formulario */
+.formulario{
+    color: #000000;
+
+}
+.formulario h2{
+    justify-content: center ;
+}
+/*Fin formulario */
+/*Inicio footer*/
+footer{
+
+    background-color: rgb(81, 144, 86);
+  
+    height: 120px;
+    min-width: 650px;
+    
+    justify-content: space-between;
+}
+    
+
+
+.socials{
+    display: flex;
+    line-height: 90px;
+    justify-content: space-evenly;
+    gap: 25px;
+    margin-top: 0;
+}
+.socials a{
+    
+    margin-bottom: 10px;
+    min-height: 30px;
+    width: 40px;
+    padding: 0 10%;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 60px;
+    border-style: solid;
+    border-color: #000000;
+   
+    
+}
+.socials a:hover{
+    background-color: #0b1717;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+ 
+   opacity: 40%;
+   max-width: 300px;
+}
+/*Fin footer*/
